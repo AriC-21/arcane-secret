@@ -12,12 +12,12 @@ const centerStyle = {
 const textStyle = { 
     fontSize: '24px', 
 };
-
+const flag = "flag{CIC4D4_S3CR3T_0N_MY_W3BSIT3}"
 function Page() {
   return (
     <div style={centerStyle}>
       <p style={textStyle}>Here is your desired Secret!</p>
-      <p style={textStyle}>flag{CIC4D4_S3CR3T_0N_MY_W3BSIT3}</p>
+      <p style={textStyle}>{flag}</p>
     </div>
   );
 }
